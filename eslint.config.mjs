@@ -12,7 +12,9 @@ export default [
       ecmaVersion: 2022,
       sourceType: 'module',
     },
-    plugins: { import: importPlugin },
+    plugins: {
+      import: importPlugin,
+    },
     settings: {
       'import/resolver': { typescript: true },
     },
